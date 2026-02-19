@@ -1,0 +1,37 @@
+.footer-outer-container {
+  background-color: #141414;
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
+.footer-inner-container {
+  width: 60%;
+  margin: 20px 0;
+}
+.footer-icons {
+  margin-bottom: 20px;
+}
+.footer-icons > * {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.footer-data {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-data li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.service-code {
+  border: 1px solid grey;
+  width: fit-content;
+  padding: 5px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.copy-write {
+  font-size: 12px;
+}

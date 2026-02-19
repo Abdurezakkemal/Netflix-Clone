@@ -1,0 +1,29 @@
+.header-outer-container {
+  background-color: #141414;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.header-left ul,
+.header-right ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header-left ul li,
+.header-right ul li {
+  margin-right: 20px;
+  cursor: pointer;
+}
